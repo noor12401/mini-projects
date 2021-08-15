@@ -20,3 +20,4 @@ You can upgrade this project by replacing a single origanl text to three or more
 
 ### Limitation
 Since this works on public cryptography, any user can type a sigle alphabet and get the encrypted text. The user can then type every single letter and can note down the pattern.
+The aim of the project was to built simple encryption and decryption tool without using any external libraries, so I have used lots `If-Else` statement, which can increase the execution time if the input textis large.
