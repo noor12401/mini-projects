@@ -46,7 +46,15 @@ def prove_numbers():
         put_text(solution_1)
         for i in range(2, user):
             put_text(solution_2.format(i, i+1, i+1, i+1, i+3))
-    put_text("Hurray! We have proved 1 = {}".format(user))
+        put_text("Hurray! We have proved 1 = {} \U0001F609".format(user))
+    elif user == 2:
+        put_text(solution_1)
+        put_text("Hurray! We have proved 1 = {} \U0001F609".format(user))
+    elif user == 1:
+        put_text("1 is already equal to 1 \U0001F606")
+    else:
+        put_text("Just reverse the process and start subtracting and you can prove 1 = {} \U0001F92F".format(user))
+
 
 def main():
     return prove_numbers()
